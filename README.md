@@ -43,7 +43,11 @@ cd C:\Users\<YourName>\searxng-windows
 .\install.ps1
 
 # 3. Start SearXNG
+Using a new GUI that allows for headless use
+-or-
 .\start.bat
+-or-
+.\start.ps1
 
 # 4. Open in browser
 # http://127.0.0.1:8888

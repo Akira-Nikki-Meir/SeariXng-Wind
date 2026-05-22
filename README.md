@@ -134,8 +134,8 @@ Add to your Claude Code MCP config (`~/.claude/settings.json`):
 {
   "mcpServers": {
     "searxng-search": {
-      "command": "C:/Users/Saya/searxng-windows/venv/Scripts/python.exe",
-      "args": ["C:/Users/Saya/searxng-windows/mcp_server.py", "--transport", "stdio"],
+      "command": "C:/Users/<your-name>/searxng-windows/venv/Scripts/python.exe",
+      "args": ["C:/Users/<your-name>/searxng-windows/mcp_server.py", "--transport", "stdio"],
       "env": {}
     }
   }

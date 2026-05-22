@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets (NEVER commit settings.yml with a real secret_key)
+settings.yml
+limiter.toml
+.env
+*.key
+*.pem
+
+# Generated GUI
+dist/
+build/
+gui.spec
+
+# Python
+*.egg-info/
+.eggs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# SearXNG source directory (cloned by installer, keep for updates)
+searx/
+
+# Conversation logs
+conversation.json
+
+# Temporary files
+*.tmp
+*.bak

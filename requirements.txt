@@ -1,0 +1,5 @@
+# Windows-compatible WSGI server (gunicorn doesn't work on Windows)
+waitress
+
+# MCP server
+mcp

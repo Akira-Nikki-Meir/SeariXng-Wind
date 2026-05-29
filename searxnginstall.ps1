@@ -1,7 +1,7 @@
 # SearXNG Windows Installer
 # -------------------------
 # A self-contained installer for SearXNG (no Docker).
-# Run from PowerShell: .\install.ps1
+# Run from PowerShell: .\searxnginstall.ps1
 
 #Requires -Version 5.1
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
